@@ -1,0 +1,32 @@
+.topheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    color: white;
+}
+
+.topheader-left{
+
+    margin-left: 1em;
+}
+
+.topheader-right{
+    margin-right: 3em;
+
+}
+
+.heading1{
+    padding-right:170px;
+    color: blue;
+}
+
+.topheader-left i{
+    margin-left: 0.8em;
+}
+
+.topheader-right i{
+    margin-right: 0.8em;
+}
+
