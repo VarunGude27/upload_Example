@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Drop Down</title>
+</head>
+<body">
+  <div class="main">
+    <nav>
+        <img src="./Images/v shape.jpg" class="image3">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+         <img src="./Images/person Circle.png" alt="Person-photo" class="user-pic" onclick="toggleMenu()">
+
+         <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="/Html Files/Images/person Circle.png">
+                    <h3>Varun Tej</h3>
+                </div>
+                <hr>
+                <a href="#" class="Sub-menu-link">
+                    <img src="./Images/icons8-male-user-96.png">
+                    <p>Edit Profile</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="Sub-menu-link">
+                    <img src="./Images/icons8-settings-96.png">
+                    <p>Settings</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="Sub-menu-link">
+                    <img src="./Images/icons8-help-96.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+
+                 <a href="#" class="image4">
+                    <img src="./Images/icons8-logout-96.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+         </div>
+    </nav>
+  </div>    
+
+  <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu")
+        }
+
+  </script>
+
+</body>
+</html>
